@@ -1,7 +1,6 @@
 function greeter(person) {
     return "Hello, " + person;
 }
+var user = "Content Management Team";
 
-let user = "Content Management Team";
-
-document.body.textContent = greeter(user);
+document.getElementById("greeting").textContent = greeter(user);
