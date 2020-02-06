@@ -10,10 +10,12 @@ Verify that you get a greeting in the browser.
 
 Now rename `greeter.js` => `greeter.ts`. give the function parameter a type. Change var to let if you care enough.
 
+*Easy Mode: use Visual Studio*
 If you're in Visual Studio, saving the file should automatically add a `greeter.js` (it's back!) and `greeter.map.js` to the folder. Open your html file in the browser to make sure everything still works. That was easy, huh?
 
-If you're deveoping in Visual Studio Code, we have to manually install the TypeScript compilter ourselves.
+If you're deveoping in Visual Studio Code, we have to manually install the TypeScript compilter ourselves. If you'd like, you can first verify that `tsc` is undefined in your shell/terminal.
 
+*Installing TypeScript Yourself*
 Using npm: `npm i -g typescript` (after running `npm init`)
 Using yarn: `yarn global add typescript` (after running `yarn init`)
 
