@@ -28,17 +28,29 @@ Note that we can run `tsc --init` to create a `tsconfig.json` file to better con
 
 ## Creating a "create-react-app" project with typescript
 
-Navigate to the CRA folder and `npx create-react-app ts-demo --template typescript`
+Navigate to the CRA folder and run any of the following:
+`npx create-react-app ts-demo --template typescript` (similar to npm but a bit smarter in some ways - see https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm for more info)
+
+`npm init react-app my-app --template typescript`
+
+`yarn create react-app my-app --template typescript`
+
+Wait a moment as the project files are added, then:
 
 `cd ts-demo`
 `yarn start`
 Note: in my case, I believe create-react-app chose yarn because I have it installed globally. You might be prompted to us npm instead.
 
-This is all you have to do!
+This is all you have to do! Check out localhost:3000 to see your new app running with react and typescript!
 
 
 ## Adding TypeScript to an existing create-react-app project
 
 Based on https://create-react-app.dev/docs/adding-typescript/
 
-Navigate to the CRA folder and (`yarn init` or `npm init` first) run `npm create-react-app ts-demo --template typescript` / `yarn create-react-app ts-demo --template typescript`
+If you have previously created a project with create-react-app, you can run 
+`npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
+or
+`yarn add typescript @types/node @types/react @types/react-dom @types/jest`
+
+to add typescript to your project! Rename .js files to .ts (.jsx to .tsx) and you should be good to go!
