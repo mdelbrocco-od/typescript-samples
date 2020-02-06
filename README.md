@@ -26,8 +26,19 @@ Now we have the `tsc` command, which stands for TypeScript Compile. Open up your
 Note that we can run `tsc --init` to create a `tsconfig.json` file to better control TS compilation. We can adjust where source ts files come from, where output js files go, how strict to be with type checks, etc.
 
 
+## Creating a "create-react-app" project with typescript
+
+Navigate to the CRA folder and `npx create-react-app ts-demo --template typescript`
+
+`cd ts-demo`
+`yarn start`
+Note: in my case, I believe create-react-app chose yarn because I have it installed globally. You might be prompted to us npm instead.
+
+This is all you have to do!
+
+
 ## Adding TypeScript to an existing create-react-app project
 
 Based on https://create-react-app.dev/docs/adding-typescript/
 
-TODO: additional details
+Navigate to the CRA folder and (`yarn init` or `npm init` first) run `npm create-react-app ts-demo --template typescript` / `yarn create-react-app ts-demo --template typescript`
