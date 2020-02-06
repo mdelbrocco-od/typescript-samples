@@ -1,0 +1,11 @@
+{
+  "name": "typescript-samples",
+  "version": "1.0.0",
+  "main": "greeter.js",
+  "repository": "https://github.com/mdelbrocco-od/typescript-samples.git",
+  "author": "Matt DelBrocco",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
