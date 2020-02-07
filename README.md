@@ -1,5 +1,9 @@
 # typescript-samples
-Code samples meant to accompany my Feb 2020 TypeScript presentation to the Content Management team
+Code samples meant to accompany my Feb 2020 TypeScript presentation to the Content Management team  
+Now also includes the powerpoint presentation!  
+
+Checkout the `vanilla-ts-done` branch to see the results of following the "TypeScript - getting started in 5 minutes" section.  
+Checkout the `cra-done` branch to see the results of following the "Creating a "create-react-app" project with TypeScript" section.  
 
 ## TypeScript - getting started in 5 minutes
 
