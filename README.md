@@ -54,3 +54,12 @@ or
 `yarn add typescript @types/node @types/react @types/react-dom @types/jest`
 
 to add typescript to your project! Rename .js files to .ts (.jsx to .tsx) and you should be good to go!
+
+
+## Questions from the audience
+
+Where are the files when you run `yarn start`?
+* Running `react-scripts start` (which `yarn start` runs under the hood) run a webpack dev server. It builds in-memory! Source: https://stackoverflow.com/questions/57938689/how-to-run-react-scripts-start-from-an-express-server
+ 
+What is the difference between `interface` and `type`? What would you use `type` for?
+* I think the accepted answer here is fantastic: https://stackoverflow.com/questions/36782896/in-typescript-what-is-the-difference-between-type-and-interface. The author gives some examples of interfaces and types, then says "So in general if you just have a plain object type, as shown in your question, an interface is usually a better approach. If you find yourself wanting to write something that can't be written as an interface, or want to just give something a different name, a type alias is better." Since I'm typically working with plain objects (in the Atlas CS Site, for example), I tend to use interfaces.
