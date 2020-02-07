@@ -16,8 +16,8 @@ If you're in Visual Studio, saving the file should automatically add a `greeter.
 If you're deveoping in Visual Studio Code, we have to manually install the TypeScript compilter ourselves. If you'd like, you can first verify that `tsc` is undefined in your shell/terminal.
 
 ##### Installing TypeScript Yourself
-Using npm: `npm i -g typescript` (after running `npm init`)
-Using yarn: `yarn global add typescript` (after running `yarn init`)
+Using npm: `npm i -g typescript` (after running `npm init`)  
+Using yarn: `yarn global add typescript` (after running `yarn init`)  
 
 Note that these commands will install typescript globally.
 
@@ -26,7 +26,7 @@ Now we have the `tsc` command, which stands for TypeScript Compile. Open up your
 Note that we can run `tsc --init` to create a `tsconfig.json` file to better control TS compilation. We can adjust where source ts files come from, where output js files go, how strict to be with type checks, etc.
 
 
-## Creating a "create-react-app" project with typescript
+## Creating a "create-react-app" project with TypeScript
 
 Navigate to the CRA folder and run any of the following:
 `npx create-react-app ts-demo --template typescript` (similar to npm but a bit smarter in some ways - see https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm for more info)
@@ -37,20 +37,20 @@ Navigate to the CRA folder and run any of the following:
 
 Wait a moment as the project files are added, then:
 
-`cd ts-demo`
-`yarn start`
+`cd ts-demo`  
+`yarn start`  
 Note: in my case, I believe create-react-app chose yarn because I have it installed globally. You might be prompted to us npm instead.
 
-This is all you have to do! Check out localhost:3000 to see your new app running with react and typescript!
+This is all you have to do! Check out localhost:3000 to see your new app running with React and TypeScript!
 
 
 ## Adding TypeScript to an existing create-react-app project
 
 Based on https://create-react-app.dev/docs/adding-typescript/
 
-If you have previously created a project with create-react-app, you can run 
+If you have previously created a project with create-react-app, you can run  
 `npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
 or
 `yarn add typescript @types/node @types/react @types/react-dom @types/jest`
 
-to add typescript to your project! Rename .js files to .ts (.jsx to .tsx) and you should be good to go!
+to add TypeScript to your project! Rename .js files to .ts (.jsx to .tsx) and you should be good to go!
