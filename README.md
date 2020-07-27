@@ -35,9 +35,9 @@ Note that we can run `tsc --init` to create a `tsconfig.json` file to better con
 Navigate to the CRA folder and run any of the following:
 `npx create-react-app ts-demo --template typescript` (similar to npm but a bit smarter in some ways - see https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm for more info)
 
-`npm init react-app my-app --template typescript`
+`npm init react-app ts-demo --template typescript`
 
-`yarn create react-app my-app --template typescript`
+`yarn create react-app ts-demo --template typescript`
 
 Wait a moment as the project files are added, then:
 
