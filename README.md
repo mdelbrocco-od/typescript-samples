@@ -43,7 +43,7 @@ Wait a moment as the project files are added, then:
 
 `cd ts-demo`  
 `yarn start`  
-Note: in my case, I believe create-react-app chose yarn because I have it installed globally. You might be prompted to us npm instead.
+Note: in my case, I believe create-react-app chose yarn because I have it installed globally. You might be prompted to use npm instead.
 
 This is all you have to do! Check out localhost:3000 to see your new app running with React and TypeScript!
 
